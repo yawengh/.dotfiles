@@ -1,0 +1,30 @@
+unmap e
+map e scroll down
+unmap u
+map u scroll up
+unmap E
+map E scroll full-down
+unmap U
+map U scroll full-up
+unmap n
+map n scroll left
+unmap i
+map i scroll right
+unmap N
+unmap I
+
+
+unmap <C-u>
+unmap <C-e>
+map <C-u> scroll half-up
+map <C-e> scroll half-down
+
+unmap j
+unmap k
+unmap l
+unmap h
+
+unmap J
+unmap K
+unmap L
+unmap H
