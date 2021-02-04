@@ -1,2 +1,2 @@
-TAGS="compton dunst git mpd neofetch python ranger rofi tmux zathura zsh"
+TAGS="compton dunst git mpd neofetch python ranger rofi tmux zathura zsh clang"
 EXCLUDES="vimium-options.json README.md"
