@@ -1,11 +1,10 @@
 configuration {
-/*	modi: "window,run,ssh";*/
-/*	width: 50;*/
-/*	lines: 15;*/
-/*	columns: 1;*/
-/*	font: "mono 24";*/
+	modi: "window,run,ssh";
+	width: 50;
+	lines: 15;
+	columns: 1;
     font: "UbuntuMono Nerd Font Mono 24";
-/*	bw: 1;*/
+	bw: 1;
 /*	location: 0;*/
 /*	padding: 5;*/
 /*	yoffset: 0;*/

@@ -37,8 +37,8 @@ alias t='tmux'
 alias lo='lsof -p $(fps) +w'
 
 #  terminal alias
-alias hp='export http_proxy="localhost:1081" 
-	export https_proxy="localhost:1081" 
+alias hp='export http_proxy="localhost:1082" 
+	export https_proxy="localhost:1082" 
 	echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy'
 
 alias np='export http_proxy="" export https_proxy="" 
