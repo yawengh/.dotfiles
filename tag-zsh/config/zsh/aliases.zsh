@@ -1,14 +1,15 @@
-alias av='source venv/bin/activate'
 alias c='clear'
+alias cs='cowsay'
 alias cdiff='colordiff'
-alias cs='calcurse'
-alias dv='deactivate'
 alias gc='git config credential.helper store'
 alias gg='git clone'
+alias gsp='git submodule foreach git pull'
 alias ipy='ipython'
+alias kc='kdeconnect-cli'
 alias l='ls -la'
 alias lg='lazygit'
 alias ms='mailsync'
+alias we='weechat'
 alias mt='neomutt'
 alias r='echo $RANGER_LEVEL'
 alias pu='python3 -m pudb'
@@ -26,6 +27,8 @@ alias g='onefetch'
 alias sra='sudo -E ranger'
 alias sudo='sudo -E'
 alias vim='nvim'
+alias reload='source ~/.zshrc'
+alias startup='systemd-analyze plot | display'
 alias gs='git config credential.helper store'
 alias bat='sudo tlp bat'
 alias ac='sudo tlp ac'
@@ -43,6 +46,3 @@ alias hp='export http_proxy="localhost:1082"
 
 alias np='export http_proxy="" export https_proxy="" 
 	echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy'
-
-#  firetool
-alias firetool="sudo /opt/fireTools/run.sh"

@@ -13,6 +13,12 @@ bindkey -M vicmd "l" undo
 bindkey -M vicmd "=" vi-repeat-search
 bindkey -M vicmd "h" vi-forward-word-end
 
+function zle-line-init zle-keymap-select {
+	RPS1="${${KEYMAP/vicmd/-- NOR --}/(main|viins)/-- INS --}"
+	RPS2=$RPS1
+	zle reset-prompt
+}
+
 function zle-keymap-select {
 	if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
 		echo -ne '\e[1 q'
@@ -34,6 +40,10 @@ _fix_cursor() {
 	echo -ne '\e[5 q'
 }
 precmd_functions+=(_fix_cursor)
+
+
+zle -N zle-line-init
+zle -N zle-keymap-select
 
 KEYTIMEOUT=1
 

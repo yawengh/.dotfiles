@@ -10,7 +10,7 @@ export fzf_preview_cmd='[[ $(file --mime {}) =~ binary ]] && echo {} is a binary
 
 _fzf_fpath=${0:h}/fzf
 fpath+=$_fzf_fpath
-autoload -U $_fzf_fpath/*(.:t)
+# autoload -U $_fzf_fpath/*(.:t)
 unset _fzf_fpath
 
 fzf-redraw-prompt() {
