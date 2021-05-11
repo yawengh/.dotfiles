@@ -46,3 +46,6 @@ alias hp='export http_proxy="localhost:1082"
 
 alias np='export http_proxy="" export https_proxy="" 
 	echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy'
+
+alias bm='bear -- make'
+alias mf='make flash'

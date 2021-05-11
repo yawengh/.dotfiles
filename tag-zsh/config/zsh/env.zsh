@@ -28,3 +28,7 @@ export ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 export FLUTTER_STORAGE_BASE_URL="https://mirrors.bfsu.edu.cn/flutter"
 export PUB_HOSTED_URL="https://mirrors.bfsu.edu.cn/dart-pub"
 
+export MANPATH=$MANPATH:/usr/local/texlive/2021/texmf-dist/doc/man
+export INFOPATH=$INFOPATH:/usr/local/texlive/2021/texmf-dist/doc/info
+export PATH=$PATH:/usr/local/texlive/2021/bin/x86_64-linux
+
